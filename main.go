@@ -60,7 +60,7 @@ func task_5(s string) bool {
 
 func main() {
 	// task_1()
-	task_2()
+	// task_2()
 	// task_3()
 	// task_4()
 	// fmt.Println(task_5("asdf"))
