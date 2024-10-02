@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go_project/packages/test"
 	"strings"
 )
 
@@ -65,5 +66,6 @@ func main() {
 	// task_4()
 	// fmt.Println(task_5("asdf"))
 	// fmt.Println(task_5("aaws"))
+	test.Hi()
 
 }
