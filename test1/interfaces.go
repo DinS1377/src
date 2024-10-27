@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strings"
+	"go_project/packages/test"
 )
 
 type Animal interface {
@@ -122,6 +123,7 @@ func (b Bird) swim() {
 }
 
 func main() {
+	test.output("лев")
 	var user_animal string
 	var error int
 	for {

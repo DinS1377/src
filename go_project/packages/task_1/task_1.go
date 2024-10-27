@@ -1,8 +1,7 @@
-package main
+package task1
 
 import (
 	"fmt"
-	"go_project/packages/test"
 	"strings"
 )
 
@@ -57,15 +56,4 @@ func task_5(s string) bool {
 		}
 	}
 	return true
-}
-
-func main() {
-	// task_1()
-	// task_2()
-	// task_3()
-	// task_4()
-	// fmt.Println(task_5("asdf"))
-	// fmt.Println(task_5("aaws"))
-	test.Hi()
-
 }
