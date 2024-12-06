@@ -14,30 +14,6 @@ type Animal interface {
 type swim interface {
 	Swim()
 }
-type AnimalFactory interface {
-	CreateAnimal(animalType string) Animal
-}
-
-// Конкретная реализация фабрики для животных
-type ConcreteAnimalFactory struct{}
-
-// CreateAnimal создает животное согласно типу
-func (f *ConcreteAnimalFactory) CreateAnimal(animalType string) Animal {
-	switch animalType {
-	case "lion":
-		return &Lion{}
-	case "cat":
-		return &Cat{}
-	case "dog":
-		return &Dog{}
-	case "karas":
-		return &Karas{}
-	case "bird":
-		return &Bird{}
-	default:
-		return nil
-	}
-}
 
 type Lion struct{}
 

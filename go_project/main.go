@@ -1,13 +1,9 @@
 package main
 
 import (
-	"go_project/packages/dataB"
+	"go_project/packages/goroutines"
 )
 
 func main() {
-	// dataB.Del(9)
-	// dataB.GetAllData()
-	// dataB.Add("bird", "korela", 5, "south", false)
-	// dataB.Sorted()
-	dataB.Add("asdfsd", "dfasdf", 5, "asdfsdf", false)
+	goroutines.Animals_g()
 }
